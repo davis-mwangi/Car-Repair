@@ -1,0 +1,17 @@
+@import '../../shared/sass/variables';
+@import '../../shared/sass/typography';
+@import '../../shared/sass/utilities';
+
+.Featured {
+    height: 90vh;
+    background-color: $color-grey-light-1;
+    padding: 10rem 0rem;
+    margin-top: -14rem;
+    margin-bottom: 10rem;
+
+    .FeaturedItems{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+    }
+}

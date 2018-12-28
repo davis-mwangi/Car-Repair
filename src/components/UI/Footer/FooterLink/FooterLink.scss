@@ -1,0 +1,30 @@
+@import '../../../../shared/sass/variables';
+.NavigationItem{
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 10px 0;
+    box-sizing: border-box;
+    display: block;
+    max-width: 100%;
+
+    a {
+        color: $color-grey-light-2;
+        text-decoration: none;
+        width: 100%;
+        box-sizing: border-box;
+        display: block;
+        height: 3rem;
+        font-size:1.4rem; 
+        letter-spacing: 1.5px;
+        transition: all .3s;
+        
+
+        &:hover,
+        &:active,
+        &.active{
+            color: $color-orange;
+    
+        }
+
+    }
+}
+

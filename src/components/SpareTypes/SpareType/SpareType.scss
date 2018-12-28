@@ -1,0 +1,22 @@
+@import '../../../shared/sass/variables';
+@import '../../../shared/sass/typography';
+
+.FeatureBox {
+    background-color: rgba($color-white, 0.8);
+    font-size: 1.2rem;
+    padding: 2rem;
+    flex-grow: 1;
+    display: grid;
+    max-width: 20rem;
+    margin: 1.5rem;
+    flex-direction: column;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.35);
+    transition: transform .2s ease-in;
+    cursor: pointer;
+    
+    &:hover{
+        transform: translateY(-1.5rem) scale(1.03);
+    }
+}

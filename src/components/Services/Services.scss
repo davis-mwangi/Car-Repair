@@ -1,0 +1,20 @@
+@import '../../shared/sass/variables';
+
+.Services{
+    background-color: $color-grey-light-1;
+    padding-top: 18rem;
+    margin-top: -8rem;
+
+    .Line {
+        margin-top: 5rem;
+        border: none;
+        background: #dbdbdb;
+        height: 1px;
+        margin-left: 5rem;
+        margin-right: 5rem;
+
+        &:not(:last-child){
+            margin-bottom: 5rem;
+        }
+    }
+}
